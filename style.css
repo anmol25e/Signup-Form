@@ -47,6 +47,7 @@ body{
 
 .mainbody{
     display: flex;
+    width: 460px;
 
 }
 
