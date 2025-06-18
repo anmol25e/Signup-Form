@@ -49,7 +49,7 @@ body{
 .mainbody{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    margin-bottom: 10px;
     justify-content: space-between;
 
 }
