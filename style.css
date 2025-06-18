@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/665-3840x2160-desktop-4k-red-dead-redemption-wallpaper-photo.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    width: 550px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background: linear-gradient(to top left, rgb(0, 0, 0), rgb(196, 52, 47));
+    border-radius: 8px;
+
+    
+
+}
+
+.signup-body{
+    background-color: rgba(185, 185, 181, 0.699);
+    margin-bottom: 10px;
+
+}
+
+.mainbody{
+    display: flex;
+
+}
+
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.signup-header p{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.body1 > div {
+    margin: 15px 0;
+}
+
+.body2 > div {
+    margin: 15px;
+}
+
+
+label{
+    display: block;
+}
+
+
+input{
+    padding: 8px;
+    border: 2px solid rgb(221, 212, 212);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#submit{
+    background-color: rgb(221, 114, 27);    
+}
