@@ -6,10 +6,15 @@
 @font-face {
     font-family: 'MyCustomFont';
     src: url(fonts/chinese_rocks/chinese\ rocks\ rg.otf) format('opentype');
-  }
+}
+
+@font-face {
+    font-family: 'Kirsty';
+    src: url(fonts/kirsty/Kirsty\ Rg.otf) format('opentype');
+}
 
 body{
-    font-family: 'MyCustomFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MyCustomFont', 'Kirsty', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main{
@@ -27,15 +32,15 @@ body{
     width: 550px;
     margin: 0 auto;
     padding: 40px 30px;
-    background: linear-gradient(to top left, rgb(0, 0, 0), rgb(196, 52, 47));
+    background: linear-gradient(to top left, rgb(0, 0, 0), rgb(187, 7, 1));
     border-radius: 8px;
+    opacity: 80%;
 
     
 
 }
 
 .signup-body{
-    background-color: rgba(185, 185, 181, 0.699);
     margin-bottom: 10px;
 
 }
@@ -49,13 +54,16 @@ body{
 .signup-header h1{
     font-size: 2.5rem;
     font-weight: lighter;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px black;
 }
 
 .signup-header p{
     font-size: 1.3rem;
+    margin-bottom: 10px;
     font-weight: lighter;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px black;
 }
 
 
@@ -70,18 +78,51 @@ body{
 
 label{
     display: block;
+    font-family: 'Kirsty', Arial, sans-serif;
     font-weight: lighter;
+    color: rgb(255, 255, 255);
 }
 
 
 input{
     padding: 8px;
-    border: 2px solid rgb(221, 212, 212);
+    border: 1px solid rgb(37, 17, 17);
     border-radius: 4px;
     font-size: 1rem;
+    background-color: #360909;
 }
+
+input, textarea {
+    color: #ffffff;
+    font-family: 'Kirsty';
+    font-size: 16px;
+
+  }
+
+input::placeholder {
+    font-family: 'Kirsty';
+    font-size: 16px;
+    color: #b8b6b6;
+    opacity: 50%;
+  }
+  
 
 #submit{
-    background-color: rgb(221, 114, 27);
+    background-color: rgb(36, 2, 2);
+    color: rgb(255, 255, 255);
+    font-family: 'Kirsty', Arial, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+
 
 }
+
+.signup-footer p {
+    font-family: 'Kirsty', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.signup-footer a {
+    color: #da0000;
+    text-decoration: underline; 
+  }
